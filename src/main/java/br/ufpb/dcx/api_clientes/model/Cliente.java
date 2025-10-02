@@ -1,11 +1,15 @@
 package br.ufpb.dcx.api_clientes.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Entity
 @Data
 @Table(name = "tb_clientes")
+@NoArgsConstructor
+@AllArgsConstructor
 public class Cliente {
 
     @Id
